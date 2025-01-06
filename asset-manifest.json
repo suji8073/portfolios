@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My-Portfolios/static/css/main.f63df0e8.css",
+    "main.js": "/My-Portfolios/static/js/main.0a0e223f.js",
+    "static/js/453.4604e2b2.chunk.js": "/My-Portfolios/static/js/453.4604e2b2.chunk.js",
+    "static/media/sky.png": "/My-Portfolios/static/media/sky.7cced93692192d4da351.png",
+    "static/media/YouthHood.png": "/My-Portfolios/static/media/YouthHood.523f6454a05fd79932ff.png",
+    "static/media/HelloParkinson.png": "/My-Portfolios/static/media/HelloParkinson.15de015c289ababf8aff.png",
+    "static/media/SunMoon.png": "/My-Portfolios/static/media/SunMoon.ac3a7527b3b4e918eeda.png",
+    "static/media/JOYnT.png": "/My-Portfolios/static/media/JOYnT.2d7394e657bee88036b5.png",
+    "static/media/ReKor.png": "/My-Portfolios/static/media/ReKor.a9cb3ddcc28fb1e4c707.png",
+    "static/media/KKE.png": "/My-Portfolios/static/media/KKE.04eac049ae08bb42f995.png",
+    "static/media/logo.png": "/My-Portfolios/static/media/logo.b45e4d10510cf8607ec4.png",
+    "static/media/profile.png": "/My-Portfolios/static/media/profile.ebe2edd3abf0dcd172f5.png",
+    "index.html": "/My-Portfolios/index.html",
+    "main.f63df0e8.css.map": "/My-Portfolios/static/css/main.f63df0e8.css.map",
+    "main.0a0e223f.js.map": "/My-Portfolios/static/js/main.0a0e223f.js.map",
+    "453.4604e2b2.chunk.js.map": "/My-Portfolios/static/js/453.4604e2b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f63df0e8.css",
+    "static/js/main.0a0e223f.js"
+  ]
+}
