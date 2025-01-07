@@ -5,8 +5,8 @@ import logo from '../../asset/logo.png';
 import '../../styles/Main.css';
 
 const menuItems = [
-  { name: 'Profile', path: '/PROFILE' },
-  { name: 'Project', path: '/PROJECT' },
+  { name: 'Profile', path: '/profile' },
+  { name: 'Project', path: '/project' },
   { name: 'Blog', url: 'https://suji-sw.tistory.com/' },
   { name: 'Github', url: 'https://github.com/suji8073/' },
 ];
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           />
         </NavLink>
 
-        <nav className='font-gmk flex space-x-8 text-gray-800'>
+        <nav className='flex space-x-8 font-gmk text-gray-800'>
           {menuItems.map((item) =>
             item.url ? (
               <a

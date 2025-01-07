@@ -6,12 +6,12 @@ import Header from './components/common/Header';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/portfolios'>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/PROFILE' element={<Profile />} />
-        <Route path='/PROJECT' element={<Project />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/project' element={<Project />} />
       </Routes>
     </BrowserRouter>
   );
