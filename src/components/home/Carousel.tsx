@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import TitleText from '../common/TitleText';
 import { portfolioItems } from '../project/PortfolioGrid';
 
+/**
+ * Project Preview
+ */
 const Carousel: React.FC = () => {
+  const nav = useNavigate();
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
@@ -28,7 +33,8 @@ const Carousel: React.FC = () => {
           {portfolioItems.map((project) => (
             <div
               key={`${project.title}-${project.category}`}
-              className='w-1/3 flex-shrink-0 p-4'
+              className='w-1/3 flex-shrink-0 cursor-pointer p-4'
+              onClick={() => nav('/project')}
               style={{ flexBasis: '33.3333%' }}
             >
               <img
