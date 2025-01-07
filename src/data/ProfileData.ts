@@ -2,10 +2,9 @@ import { SectionItemProps } from '../components/profile/ProfileSection';
 
 export const CareerData: SectionItemProps = [
   {
-    year: '2023.04 ~ 현재',
+    year: '2023.04 ~ 2024.12',
     name: '티맥스가이아',
     detail: ['Frontend-Engineer', 'No-Code 기반의 에디터 웹 애플리케이션 개발'],
-    activate: true,
     stack: [
       {
         name: 'react',
@@ -73,7 +72,7 @@ export const EducationData: SectionItemProps = [
   {
     year: '2019.03 ~ 2023.02',
     name: '광운대학교',
-    detail: ['정보융합학부 데이터사이언스 전공 졸업', '학점 : 3.98 / 4.5'],
+    detail: ['정보융합학부 데이터사이언스 전공 졸업'],
   },
 ];
 
@@ -148,10 +147,9 @@ export const AwardsData: SectionItemProps = [
 
 export const ActivityData: SectionItemProps = [
   {
-    year: '2024.10.28 ~ 현재',
+    year: '2024.10 ~ 2024.12',
     name: 'AI 히어로즈 작가',
     detail: ['AI 및 프론트엔드 관련 지식 원고 작성'],
-    activate: true,
   },
   {
     year: '2021.01 ~ 2022.06',
