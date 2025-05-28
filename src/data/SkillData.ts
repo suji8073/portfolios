@@ -1,3 +1,11 @@
+export const mainSkillData = [
+  'React',
+  'Typescript',
+  'SCSS',
+  'Mobx',
+  'Storybook',
+];
+
 export const SkillData = [
   {
     category: 'Language',
@@ -28,9 +36,14 @@ export const SkillData = [
     category: 'Frontend',
     items: [
       {
-        name: 'React.js',
+        name: 'React',
         badge:
           'https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white',
+      },
+      {
+        name: 'Next.js',
+        badge:
+          'https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white',
       },
       {
         name: 'React Native',
@@ -66,6 +79,11 @@ export const SkillData = [
         name: 'Sass',
         badge:
           'https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white',
+      },
+      {
+        name: 'Storybook',
+        badge:
+          'https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=Storybook&logoColor=white',
       },
       {
         name: 'Emotion',
