@@ -17,3 +17,39 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  body {
+    background-color: rgb(249 250 251) !important;
+  }
+
+  button.print\:hidden {
+    display: none !important;
+  }
+
+  aside {
+    display: none !important;
+  }
+
+  main {
+    grid-column: 1 / -1 !important;
+    width: 95% !important;
+    max-width: 95% !important;
+    margin: auto !important;
+  }
+
+  .grid-cols-1 {
+    display: block !important;
+  }
+
+  .background-content > div,
+  .project-content > div {
+    break-inside: avoid !important;
+    padding-top: 3rem !important;
+  }
+}
