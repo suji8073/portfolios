@@ -1,191 +1,200 @@
-import { SectionItemProps } from '../components/profile/ProfileSection';
+import { EducationItemProps, SectionItemProps } from '../types/type';
 
-export const CareerData: SectionItemProps = [
-  {
-    year: '2023.04 ~ 2024.12',
-    name: '티맥스가이아',
-    detail: ['Frontend-Engineer', 'No-Code 기반의 에디터 웹 애플리케이션 개발'],
-    stack: [
-      {
-        name: 'react',
-        logo: 'react',
-      },
-      {
-        name: 'typescript',
-        logo: 'typescript',
-      },
-      {
-        name: 'mobx',
-        logo: 'mobx',
-      },
-      {
-        name: 'gitLab',
-        logo: 'github',
-      },
-      {
-        name: 'figma',
-        logo: 'figma',
-      },
-    ],
-  },
-  {
-    year: '2022.08 ~ 2023.01',
-    name: '(주)코코넛사일로',
-    detail: [
-      '플랫폼 개발파트 인턴',
-      '화물 운송 중개 플랫폼 화주 어플리케이션 개발',
-    ],
-    stack: [
-      {
-        name: 'react-native',
-        logo: 'react',
-      },
-      {
-        name: 'typescript',
-        logo: 'typescript',
-      },
-      {
-        name: 'styleSheet',
-        logo: 'css3',
-      },
-      {
-        name: 'redux',
-        logo: 'redux',
-      },
-      {
-        name: 'github',
-        logo: 'github',
-      },
-      {
-        name: 'figma',
-        logo: 'figma',
-      },
-      {
-        name: 'postman',
-        logo: 'postman',
-      },
-    ],
-  },
-];
-
-export const EducationData: SectionItemProps = [
+export const EducationData: EducationItemProps = [
   {
     year: '2019.03 ~ 2023.02',
     name: '광운대학교',
-    detail: ['정보융합학부 데이터사이언스 전공 졸업'],
+    detail: '정보융합학부 데이터사이언스전공 (GPA: 3.98/4.5)',
+    capstone: [
+      "졸업 작품: 상지 재활 치료를 위한 게이미피케이션 운동 치료 모바일 어플리케이션 '햇님달님'",
+      'Google ML Kit 기반 자세 추정 기능과 가상 배경 합성을 통한 인터랙티브 운동 프로세스 개발',
+      '사용 기술: Android Studio(JAVA), Figma',
+      '성과: ASK 2022 한국정보처리학회 장려상',
+      '논문: 효과적인 상지 재활을 위한 운동 어플리케이션 개발 : 게이미피케이션 적용을 중심으로',
+    ],
+  },
+  {
+    year: '2016.03 ~ 2019.02',
+    name: '백석고등학교',
+    detail: '인문고 (소재지: 인천)',
   },
 ];
 
 export const AwardsData: SectionItemProps = [
   {
     year: '2022.10.06',
-    name: '관광데이터 활용 공모전 우수상',
+    name: '2022 관광데이터 활용 공모전 우수상',
     detail: [
-      '한국관광공사, 카카오 주최',
-      '외국인 관광객을 위한 대한민국 관광 코스 추천 서비스 앱 Re-kor 개발',
-      'Google Play Store 배포 경험',
+      '주최: 한국관광공사',
+      '내용: 외국인 관광객들을 위한 대한민국 관광 코스 추천 서비스 모바일 어플리케이션 개발 : "Re-Kor"',
+      '소속: 개인 프로젝트',
+      '역할: 모바일 어플리케이션 Frontend 개발',
+      '• 로그인 및 회원가입 프로세스 구현',
+      '• 메인·위시리스트 화면 개발',
+      '• 관광지 검색 및 코스 생성 기능 개발',
+      '• 사용자 맞춤형 여행 코스 자동 생성 기능 구현',
+      '성과: Google Play Store 배포',
     ],
+    link: 'https://github.com/suji8073/Re-Kor',
   },
   {
     year: '2022.07.01',
     name: '한국디지털콘텐츠학회 하계종합학술대회 논문경진대회 금상',
     detail: [
-      '‘파킨슨병의 재활 운동 보조를 위한 모바일 응용프로그램 설계 및 구현’ 논문 제출',
-      '파킨슨병 환자 재활을 위한 앱 헬로우 파킨슨 개발',
-      '서울대학교 파킨슨 센터에서 실제로 사용 중',
+      '주최: 한국디지털콘텐츠학회',
+      '논문 제목: 파킨슨병의 재활 운동 보조를 위한 모바일 응용프로그램 설계 및 구현',
+      '소속: 광운대학교 디지털 경험 분석 연구실',
+      '성과: 서울대병원 파킨슨센터 실제 사용 사례',
     ],
   },
   {
     year: '2022.05.20',
     name: 'ASK 한국정보처리학회 장려상',
     detail: [
-      '‘효과적인 상지 재활을 위한 운동 어플리케이션 개발 : 게이미피케이션 적용을 중심으로’ 논문 제출',
+      '주최: 한국정보처리학회',
+      '내용: 상지 재활 치료를 위한 게이미피케이션 운동 치료 모바일 어플리케이션 "햇님달님"',
+      '논문 제목: 효과적인 상지 재활을 위한 운동 어플리케이션 개발 : 게이미피케이션 적용을 중심으로',
+      '소속: 광운대학교 산학연계 졸업작품 프로젝트',
+      '역할: 모바일 어플리케이션 Frontend 개발',
+      '• Google ML Kit 기반 자세 추정 기능 구현',
+      '• 가상 배경 합성을 통한 인터랙티브 운동 프로세스 개발',
+      '• 점수 시스템, 배경 전환, 효과음 등 게이미피케이션 요소 구현',
+      '성과: (주) 좋은운동장 실제 사용 사례',
     ],
+    link: 'https://kiss.kstudy.com/Detail/Ar?key=3957854',
   },
   {
     year: '2022.05.14',
     name: 'SW 포토폴리오 경진대회 최우수상',
-    detail: ['광운대학교 소프트웨어중심대학사업단 주최'],
+    detail: ['주최: 광운대학교 소프트웨어중심대학사업단'],
   },
   {
     year: '2021.12.03',
-    name: '참빛설계학기 성과발표회 장려상',
+    name: '광운대학교 참빛설계학기 성과발표회 장려상',
     detail: [
-      '광운대학교 정보융합학부 주최',
-      '파킨슨병 환자의 재활을 위한 앱 어플리케이션 개발',
-      '서울대학교병원 파킨슨 센터에서 실 사용 중',
+      '주최: 광운대학교 교육혁신원',
+      '내용: 파킨슨병 환자의 재활 치료를 위한 환자용, 관리자용 모바일 어플리케이션 "헬로우파킨슨"',
+      '소속: 광운대학교 디지털 경험 분석 연구실',
+      '역할: 모바일 어플리케이션 Frontend 개발',
+      '• 로그인, 회원가입, 운동 영상 화면 개발',
+      '• 관리자용 통계 시각화 화면 개발',
+      '• 환자-관리자 간의 운동 진행 데이터 관리 및 시각화 기능 구현',
+      '성과: 서울대병원 파킨슨센터 실제 사용 사례',
     ],
+    link: 'https://github.com/suji8073/HelloParkinson',
   },
   {
     year: '2021.11.18',
-    name: '관광데이터 활용 공모전 우수상',
+    name: '2021 한국관광공사 관광데이터 활용 공모전 우수상',
     detail: [
-      '한국관광공사 주최',
-      '삶을 즐기는 시니어를 위한 여행 관광 위치 기반 추천 서비스 앱 어플리케이션 개발',
-      'Google Play Store 배포 경험',
+      '주최: 한국관광공사',
+      '내용: 시니어를 위한 맞춤형 여행 코스 및 위치 기반 추천 서비스 기반의 관광 모바일 어플리케이션 "오팔청춘"',
+      '소속: 개인 프로젝트',
+      '역할: 모바일 어플리케이션 Frontend 개발',
+      '• 스플래쉬/로그인 화면 개발',
+      '• 공통 컴포넌트 제작',
+      '• 관광지 경로 생성 프로세스 개발',
+      '• 관광지 검색, 지도 위치 표시, 여행 순서 변경 기능 구현',
+      '성과: Google Play Store 배포',
     ],
+    link: 'https://github.com/suji8073/OPAL_KW',
   },
   {
     year: '2021.10.20',
     name: 'SW 포토폴리오 경진대회 장려상',
-    detail: ['광운대학교 소프트웨어중심대학사업단 주최'],
+    detail: ['주최: 광운대학교 소프트웨어중심대학사업단'],
   },
   {
     year: '2021.10.18',
     name: 'AI 해커톤 장려상',
-    detail: ['광운대학교, 데이콘 주최', '운동동작 분류 AI 경진대회'],
+    detail: ['주최: 광운대학교, 데이콘', '내용: 운동동작 분류 AI 경진대회'],
   },
   {
     year: '2021.07.07',
     name: '프로젝트형 공동강의 융합교과목 학생산출물 전시회 통합특별상',
     detail: [
-      '광운대학교 교육혁신원 교수학습센터장 주최',
-      'COVID-19를 통한 유동인구와 매출의 예측 분석 웹 대시보드 개발',
+      '주최: 광운대학교 교육혁신원 교수학습센터장',
+      '내용: COVID-19를 통한 유동인구와 매출의 예측 분석 웹 대시보드 개발',
+      '역할: 팀장, 웹 대시보드 전반 기획 및 대시보드 개발',
+      '• 유동인구 및 매출 데이터 전처리 및 결측치 제거',
+      '• Chart.js를 활용한 꺾은선 그래프 구현 및 툴팁 기능 추가',
     ],
+    link: 'https://drive.google.com/file/d/1nixI7vtW54uv83su3FZN262Gb9Hz-DCb/view?usp=drive_link',
   },
 ];
 
 export const ActivityData: SectionItemProps = [
   {
     year: '2024.10 ~ 2024.12',
-    name: 'AI 히어로즈 작가',
-    detail: ['AI 및 프론트엔드 관련 지식 원고 작성'],
+    name: 'AI 히어로즈 기술 콘텐츠 작가',
+    detail: [
+      '소속: AI 히어로즈',
+      '역할: AI 및 프론트엔드 분야 기술 콘텐츠 작성',
+      '• AI 및 프론트엔드 분야의 최신 기술 동향과 산업 트렌드 분석',
+      '• 클린 코드, 시맨틱 태그, Claude AI 활용법 등 다양한 주제로 콘텐츠 기획',
+      '• 비전문가도 이해할 수 있는 AI 모델 구조 및 웹 기술 칼럼 작성',
+      '성과: 기술 콘텐츠 5편 작성 및 발행',
+    ],
+    link: 'https://aiheroes.ai/community/250',
   },
   {
     year: '2021.01 ~ 2022.06',
-    name: 'KW-HCC LAB 학부연구생',
+    name: '광운대학교 디지털 경험 분석 연구실(IDEA) 학부연구생 및 개발 인턴',
     detail: [
-      'HCI 및 UI/UX 기반 인간 중심 컴퓨팅 연구실',
-      '대한인간공학회 발표, ICTC 2021 논문 등재, 특허 등록 경험',
-      'React, React Native, Android(JAVA) 등 다양한 기술 스택 경험',
+      '소속: 광운대학교 디지털 경험 분석 연구실',
+      '역할: 학부연구생 및 개발 인턴',
+      '주요 프로젝트:',
+      '• 파킨슨병 환자의 재활을 위한 관리 모바일 어플리케이션 개발 (React Native)',
+      '• 장애인 상지 재활을 위한 AI 동작 인식 모바일 어플리케이션 개발 (Android Studio)',
+      '• 광운대학교 디지털 경험 분석 연구실 웹 사이트 개발 (React)',
     ],
+    link: 'https://sites.google.com/view/kw-idea',
   },
   {
     year: '2021.03 ~ 2021.12',
-    name: '학부 스터디 "융스터디" 소모임 운영',
-    detail: ['자격증 스터디, 언택트 교육 봉사활동'],
+    name: "광운대학교 정보융합학부 스터디 '융스터디' 소모임 운영",
+    detail: [
+      '소속: 광운대학교 정보융합학부',
+      '역할: 스터디 소모임 운영',
+      '활동 내용:',
+      '• 자격증 스터디 운영',
+      '• 학업 스터디 운영',
+      '• 비대면 코딩 교육 봉사활동 진행',
+    ],
   },
   {
     year: '2021.11.26',
-    name: '특허증: 고객 맞춤형 사용자 인터페이스를 제공하는 무인단말기',
-    detail: ['특허: 제 10-2740477호', '출원 번호 : 10-2021-0165563'],
+    name: '특허증: 고객 맞춤형 사용자 인터페이스를 제공하는 무인 단말기',
+    detail: [
+      '소속: 광운대학교 디지털 경험 분석 연구실(IDEA)',
+      '내용: 무인 단말기에 포함된 카메라 영상을 활용해 고객을 인식하고, 이를 활용한 사용자 인터페이스 환경을 동적으로 제공할 수 있는 기능',
+      '특허 번호: 제 10-2740477호',
+      '출원 번호: 10-2021-0165563',
+    ],
+    link: 'https://doi.org/10.8080/1020210165563',
   },
-
   {
     year: '2021.10.17',
     name: 'ICTC 2021 논문 등재',
     detail: [
-      '주제: Design and Evaluation of Exercise Management Application for Patients with Parkinsonism',
+      '소속: 광운대학교 디지털 경험 분석 연구실(IDEA)',
+      '학회: International Conference on ICT Convergence (ICTC)',
+      '논문 제목: Design and Evaluation of Exercise Management Application for Patients with Parkinsonism',
     ],
+    link: 'https://ieeexplore.ieee.org/document/9620819',
   },
   {
     year: '2021.06.17',
     name: '춘계학술대회 대한인간공학회 발표',
-    detail: ['주제: 파킨슨병 환자의 재활을 위한 모바일 어플리케이션 설계'],
+    detail: [
+      '학회: 대한인간공학회',
+      '발표 주제: 파킨슨병 환자의 재활을 위한 모바일 어플리케이션 설계',
+    ],
+    link: 'https://www.esk.or.kr/newsletter/20210609/program2021.pdf',
   },
   {
     year: '2021.04.09',
     name: '데이터분석 준전문가(ADsP) 자격증 취득',
-    detail: ['한국데이터산업진흥원'],
+    detail: ['주관: 한국데이터산업진흥원', '자격: 데이터분석 준전문가(ADsP)'],
   },
 ];
